@@ -24,7 +24,6 @@
             Console.WriteLine($"Area do terreno : {area}");
             Console.ReadLine();
 
-
         }
     }
 }
