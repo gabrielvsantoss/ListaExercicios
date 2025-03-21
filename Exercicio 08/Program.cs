@@ -8,8 +8,8 @@
             {
                 int numero = 0;
                 bool numeroEhPrimo = true;
-
-                Console.WriteLine("Digite um numero");
+                Console.BackgroundColor);
+                Console.WriteLine("Digite um numero cabeçudinha");
                 numero = Convert.ToInt32(Console.ReadLine());
                 
                 if (numero < 2)

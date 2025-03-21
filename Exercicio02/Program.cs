@@ -16,7 +16,7 @@ namespace Exercicio02
 
            double volume = Math.PI * Math.Pow(raio, 2) * altura;
  
-            Console.WriteLine($"volume é de {volume}cm³");
+            Console.WriteLine($"volume é de {volume.ToString("F2")}cm³");
             Console.ReadLine();
         }
     }
