@@ -7,7 +7,7 @@
             Console.WriteLine("Digite um numero");
             int numero = Convert.ToInt32(Console.ReadLine());
             int resultado = 0;
-            for (int a =  numero; a < numero; a-= 1)
+            for (int a =  1; a <= 10; a++)
             {
                
 

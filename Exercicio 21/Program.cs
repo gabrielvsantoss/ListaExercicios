@@ -1,27 +1,22 @@
 ﻿
-namespace Exercicio_21
+
+public class Exercicio21
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Console.Write("Digite um número inteiro:");
+        int numero = Convert.ToInt32(Console.ReadLine());
+
+
+        int fatorial = 1;
+
+        for (int i = numero; i >= 1; i--)
         {
-            int resultado = 0;
-
-            Console.WriteLine("Digite um numero inteiro");
-            int numero = Convert.ToInt32(Console.ReadLine());
-
-
-            for (int a = 0; a < numero; a++)
-            {
-             
-
-
-                Console.WriteLine($"{numero} X {a}");  
-
-                resultado = numero * a;
-            }
-            Console.ReadLine();
+            fatorial *= i;
 
         }
+
+        Console.WriteLine($"{numero}! = {fatorial}");
+        Console.ReadLine();
     }
 }
