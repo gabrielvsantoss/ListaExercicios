@@ -48,3 +48,32 @@
 
 - **Exercicio 23:** Algoritmo que verifica se os numeros de 1 a 100 e imprimi "Fizz" se o numero for multiplo de 3, "Buzz" se o numero foi multiplo de 5, "FizzBuzz" se o numero for multiplo de 5 e 3, retorna o proprio numero se o numero não estiver em nenhuma dessas condições
 
+**Como usar?**
+
+1. Clone o repositorio ou baixe o código fonte.
+2. Abra o terminal ou o prompt de comando e navegue até a pasta raiz.
+3. Utilize o comando abaixo para restaurar as dependencias do projeto:
+
+```
+dotnet restore
+```
+
+4. Em seguida, complete uma solução utilizando o comando:
+```
+dotnet build --configuration Release 
+```
+
+5. Para executar o projeto elaborado em tempo real:
+```
+dotnet run --project ListaExercicios
+````
+
+6. Para executar o arquivo compilado, navegue até a pasta: ./ListaExercicios/bin/Release/net8.0/e execute o arquivo:
+```
+ListaExercicios.exe
+```
+
+**Requisitos**
+
+- NET SDK (recomendado .NET 8.0 ou superior) para construção e execução do projeto.
+
