@@ -24,7 +24,7 @@ namespace Exercicio_15
                     Console.ReadLine();
                 }
 
-                else if (IMC >= 18.5 && IMC <= 25)
+                else if (IMC > 18.5 && IMC <= 25)
                 {
                     Console.WriteLine($"Voce esta no peso ideal seu IMC esta em: {IMC.ToString("F2")}");
                     Console.ReadLine();

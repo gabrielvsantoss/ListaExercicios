@@ -6,15 +6,23 @@
         {
             Console.WriteLine("Digite um numero");
             int numero = Convert.ToInt32(Console.ReadLine());
-            int resultado = 0;
-            for (int a =  1; a <= 10; a++)
+            int resultado = 1;
+
+            Console.Write($"{numero}! = {numero}");
+            for (int i = numero; i >= 1; i --)
             {
-               
+                resultado *= i;
 
-                resultado = numero * a;
-                Console.WriteLine($"{numero} x {a} = {resultado}");
+
+                if (i >= 1 && i != numero)
+                {
+                    Console.Write($" * {i}");
+                }
+
+
             }
-
+            
+            Console.Write($" = {resultado}");
             Console.ReadLine();
         }
     }
